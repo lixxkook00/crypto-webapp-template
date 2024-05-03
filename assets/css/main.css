@@ -34,7 +34,7 @@
     cursor: pointer;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-image: linear-gradient(45deg, #036630 0%, #036630 33%, #03C75E 100%);;
+    background-image: var(--primary-gradient);;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -182,7 +182,7 @@
 	padding: 6px 20px;
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-image: linear-gradient(45deg, #036630 0%, #036630 33%, #03C75E 100%);;
+    background-image: var(--primary-gradient);;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -693,7 +693,7 @@ input:focus-visible{
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  background-image: linear-gradient(45deg, #03C75E 0%, #036630 33%, #036630 100%);
+  background-image: var(--primary-gradient);
   color: #fff;
   font-size: 25px;
   cursor: pointer;
@@ -938,11 +938,11 @@ input:focus-visible{
 
 .primary-box--gradient {
     color: #fff;
-    background-image: linear-gradient(45deg, #036630 0%, #036630 33%, #03C75E 100%);
+    background-image: var(--primary-gradient);
 }
 
 .primary-box--gold {
-    background-image: linear-gradient(45deg, #C0993D 0%, #D8A824 33%, #FCF49C 100%);
+    background-image: var(--gradient-gold);
 }
 
 .primary-box--gradient .primary-text {
@@ -1330,7 +1330,7 @@ select:focus-visible{
 
 .package:hover{
     cursor: pointer;
-    background-image: linear-gradient(45deg, #03C75E 0%, #036630 33%, #036630 100%);
+    background-image: var(--primary-gradient);
 }
 
 .package-list{
@@ -1456,7 +1456,7 @@ select:focus-visible{
 }
 
 .primary-text {
-    color: #00AB00 !important;
+    color: var(--primary-color) !important;
 }
 
 .feedback-item-title {
@@ -1475,7 +1475,7 @@ select:focus-visible{
     font-size: 1.1rem;
     font-weight: 600;
     line-height: 1.5;
-    color: #00AB00;
+    color: var(--primary-color);
     background-color: #ffffff00;
     background-clip: padding-box;
     border: 1px solid #e4e6ef;
@@ -1498,13 +1498,13 @@ select:focus-visible{
     color: #fff;
     text-decoration: none;
     font-weight: 800;
-    background-image: linear-gradient(45deg, #03C75E 0%, #036630 33%, #036630 100%);
+    background-image: var(--primary-gradient);
 }
 
 .card-icon {
     width: 40px;
     height: 40px;
-    color: #00AB00;
+    color: var(--primary-color);
     background-color: #fdfdfdc2;
     border-radius: 14px;
     font-size: 18px;
@@ -1546,7 +1546,7 @@ select:focus-visible{
 }
 
 .nav-mobile-item.active {
-    color: #00AB00;
+    color: var(--primary-color);
 }
 
 .nav-mobile-item {
@@ -1596,7 +1596,7 @@ select:focus-visible{
 }
 
 .nft-card:hover {
-    box-shadow: #21e787ae 0px 2px 4px 0px, #00AB00 0px 2px 16px 0px;
+    box-shadow: #21e787ae 0px 2px 4px 0px, var(--primary-color) 0px 2px 16px 0px;
 }
 
 .nft-card::before,
@@ -1615,13 +1615,13 @@ select:focus-visible{
 }
 .nft-card::before {
   top: 0; right: 0;
-  border-top: 1px solid #00AB00;
-  border-left: 1px solid #00AB00;
+  border-top: 1px solid var(--primary-color);
+  border-left: 1px solid var(--primary-color);
 }
 .nft-card::after {
   bottom: 0; left: 0;
-  border-bottom: 1px solid #00AB00;
-  border-right: 1px solid #00AB00;
+  border-bottom: 1px solid var(--primary-color);
+  border-right: 1px solid var(--primary-color);
 }
 .nft-card:hover::before,
 .nft-card:hover::after {
@@ -1645,7 +1645,7 @@ select:focus-visible{
 
 select {
     border: none;
-    color: #00AB00;
+    color: var(--primary-color);
     font-weight: 600;
     background-color: transparent;
 }
@@ -1788,7 +1788,7 @@ select {
 
 .intro-login a:hover,
 .dashboard-bg a:hover {
-    color: #00AB00;
+    color: var(--primary-color);
 }
 
 

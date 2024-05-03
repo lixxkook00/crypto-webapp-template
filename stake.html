@@ -21,58 +21,17 @@
 
 <body>
     <!-- HEADER MOBILE -->
-    <div class="header-mobile hide-on-pc">
+    <div class="header-mobile">
         <img class="header-mobile-logo" src="./assets/images/logo-text.png" alt="">
         <div class="header-mobile-left">
-            <!-- <div class="header-mobile-icon centering" onclick="toggleNavMobile()">
-                <i class="fa-solid fa-bars"></i>
-            </div> -->
         </div>
     </div>
-
-    <!-- HEADER -->
-    <header class="header hidden-m-t">
-        <div class="header-wrapper align-items-center d-flex justify-content-between">
-            <a href="/">
-                <img src="./assets/images/logo.png" alt="" class="header-logo">
-            </a>
-
-            <div class="header-nav d-flex">
-                <a href="/dashboard.html" class="header-nav-item centering">
-                    Dashboard
-                </a>
-                <a href="/transaction.html" class="header-nav-item centering">
-                    Transaction
-                </a>
-                <a href="/nft.html" class="header-nav-item centering ">
-                    Buy NFT
-                </a>
-                <a href="/stake.html" class="header-nav-item centering active">
-                    Stake
-                </a>
-                <a href="/account.html" class="header-nav-item centering">
-                    Account
-                </a>
-                <div class="dropdown show">
-                    <a class="primary-button d-flex align-items-center dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa-solid fa-user mr-2"></i> kanyeX
-                    </a>
-                  
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" href="#">
-                        <i class="fa-solid fa-right-from-bracket"></i> Logout
-                      </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
 
     <!-- MAIN CONTENT -->
     <div class="dashboard-bg">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-12">
                     <div class="primary-box primary-box--black d-flex flex-column primary-box--gradient">
                         <div class="d-flex flex-column mb-7">
                             <a href="#" class="primary-text primary-title mb-1">Summary</a>
@@ -135,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8 col-12">
+                <div class="col-lg-12">
                     <div class="primary-box primary-box--black d-flex flex-column justify-content-between table-mh">
                         <div class="d-flex justify-content-start mb-7">
                             <a href="#" class="primary-text primary-title mb-1">My Stake</a>
@@ -160,46 +119,40 @@
 
     </div>
 
-    <!-- MOBILE NAV -->
-    <div class="nav-mobile hide-on-pc">
-        <a href="/dashboard.html" class="nav-mobile-item">
-            <div class="nav-mobile-item-icon">
-                <i class="fa-solid fa-house"></i>
-            </div>
-            <div class="nav-mobile-item-title">Dashboard</div>
-        </a>
-        <a href="/transaction.html" class="nav-mobile-item">
-            <div class="nav-mobile-item-icon">
-                <i class="fa-solid fa-right-left"></i>
-            </div>
-            <div class="nav-mobile-item-title">Transaction</div>
-        </a>
-        <a href="/nft.html" class="nav-mobile-item">
-            <div class="nav-mobile-item-icon">
-                <i class="fa-solid fa-image"></i>
-            </div>
-            <div class="nav-mobile-item-title">Buy NFT</div>
-        </a>
-        <a href="/stake.html" class="nav-mobile-item active">
-            <div class="nav-mobile-item-icon">
-                <i class="fa-solid fa-money-check-dollar"></i>
-            </div>
-            <div class="nav-mobile-item-title">Stake</div>
-        </a>
-        <a href="/account.html" class="nav-mobile-item">
-            <div class="nav-mobile-item-icon">
-                <i class="fa-solid fa-user"></i>
-            </div>
-            <div class="nav-mobile-item-title">Account</div>
-        </a>
-    </div>
-
-    <!-- FOOTER -->
-    <footer class="footer hidden-m">
-        <div class="footer-verify">
-            Copyright © X-Coin | Designed by X-Coin Team.
+    <div class="nav-mobile">
+        <div class="nav-mobile-wrapper centering">
+            <a href="/dashboard.html" class="nav-mobile-item">
+                <div class="nav-mobile-item-icon">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="nav-mobile-item-title">Dashboard</div>
+            </a>
+            <a href="/transaction.html" class="nav-mobile-item">
+                <div class="nav-mobile-item-icon">
+                    <i class="fa-solid fa-right-left"></i>
+                </div>
+                <div class="nav-mobile-item-title">Transaction</div>
+            </a>
+            <a href="/nft.html" class="nav-mobile-item">
+                <div class="nav-mobile-item-icon">
+                    <i class="fa-solid fa-image"></i>
+                </div>
+                <div class="nav-mobile-item-title">Buy NFT</div>
+            </a>
+            <a href="/stake.html" class="nav-mobile-item active">
+                <div class="nav-mobile-item-icon">
+                    <i class="fa-solid fa-money-check-dollar"></i>
+                </div>
+                <div class="nav-mobile-item-title">Stake</div>
+            </a>
+            <a href="/account.html" class="nav-mobile-item">
+                <div class="nav-mobile-item-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="nav-mobile-item-title">Account</div>
+            </a>
         </div>
-    </footer>
+    </div>
 </body>
 
 </html>

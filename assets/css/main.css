@@ -106,7 +106,7 @@
 
 .intro-title{
 	font-weight: 900;
-	font-size: 40px;
+	font-size: 32px;
 	line-height: 46px;
 }
 
@@ -753,6 +753,7 @@ input:focus-visible{
 
 .dashboard-bg {
     background: #000 url(../images/bg-main.jpg) no-repeat center center;
+    background-attachment: fixed;
 }
 
 .form-logo{
@@ -874,10 +875,11 @@ input:focus-visible{
 }
 
 .dashboard-bg{
-    min-height: calc(100vh - 41px);
-    padding-top: 80px;
+    min-height: calc(100dvh);
+    padding-top: 52px;
     padding-bottom: 10px;
     /* background-color: #E0E8F3; */
+    padding-bottom: 70px;
 }
 
 .header-dashboard .header-nav-item {
@@ -1526,14 +1528,21 @@ select:focus-visible{
 
 .nav-mobile {
     position: fixed;
+    z-index: 3;
     bottom: -0.5px;
     left: 0;
     width: 100vw;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #000F07;
     color: #fff;
     box-shadow: rgb(255 255 255 / 80%) 0px 1px 3px, rgb(255 255 255 / 87%) 0px 1px 2px;
+}
+
+.nav-mobile-wrapper {
+    width: 100%;
+    max-width: 720px;
 }
 
 .nav-mobile-item.active {

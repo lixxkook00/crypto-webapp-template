@@ -1789,6 +1789,7 @@ select {
 .intro-button.primary-button, .intro-button.secondary-button {
     font-size: 14px;
     text-transform: capitalize;
+    margin-top: 35px;
 }
 
 .swiper-intro-pagination {
